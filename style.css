@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    width: 245px;
+    /* tamanho do texto, porem quando minimizado*/
+    padding: 0 6px;
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    background: rgb(255, 255, 255);
+    /*caixa d texto*/
+
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    /* cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    /* tamanho da barra de texto*/
+}
+
+.logo {
+    position: absolute;
+    width: 185px;
+    height: 170px;
+    left: 70px;
+    top: -10px;
+}
+
+.fundo {
+    background-image: url(IMG/gta.jpg);
+    position: absolute;
+    height: 150%;
+    width: 100%;
+}
+
+.Barra-amarela {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    background: gold;
+}
+
+.fundob {
+    position: absolute;
+    top: 134px;
+    left: 400px;
+    width: 750px;
+    height: 1130px;
+    background: rgb(255, 255, 255);
+    /*onde os jogos vão*/
+}
+
+.gta5 {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left: 450px;
+    top: 755px;
+}
+
+.gta_trio {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left: 670px;
+    top: 748px;
+}
+
+.mine {
+    position: absolute;
+    width: 174px;
+    height: 307px;
+    left: 900px;
+    top: 753px;
+}
+
+.gow {
+    position: absolute;
+    width: 166px;
+    height: 290px;
+    left: 450px;
+    top: 280px;
+}
+
+.god {
+    position: absolute;
+    width: 166px;
+    height: 290px;
+    left: 670px;
+    top: 280px;
+}
+
+.forza {
+    position: absolute;
+    width: 158px;
+    height: 299px;
+    left: 900px;
+    top: 280px;
+}
+
+.ejogos {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 687px;
+    top: 180px;
+
+    font-family: 'Lemon milk';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.Destaques {
+    position: absolute;
+    width: 146px;
+    height: 34px;
+    left: 655px;
+    top: 610px;
+
+    font-family: 'Lemon milk';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    background: rgb(255, 255, 255);
+    top: 1130px;
+}
+
+.footer {
+    position: absolute;
+    top: 1170px;
+    width: 100%;
+    height: 50px;
+}
+
+.barraconta {
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    border-radius: 1000px;
+}
+
+.barra2{
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 1237px;
+    top: 55px;
+    opacity: 0%;
+}
